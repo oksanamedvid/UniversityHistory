@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TimelineDLL.Models;
+using TimelineDLL.Repositories;
 
 namespace TimelineHistory
 {
@@ -21,6 +23,11 @@ namespace TimelineHistory
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            var connection = @"Server=DESKTOP-24JC6T2\SQLEXPRESS;Database=UniversityHistory;User=DESKTOP-24JC6T2\Oksana;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddDbContext<HistoryContext>
+                (options => options.UseSqlServer(connection));
+
+            services.AddScoped<IHistoryRepository, HistoryRepository>();
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
