@@ -8,8 +8,7 @@
     "types": [
       "jasmine",
       "jasminewd2",
-      "node",
-      "jquery"
+      "node"
     ]
   }
 }
