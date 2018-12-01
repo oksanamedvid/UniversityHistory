@@ -6,6 +6,10 @@
 /packages/
 !packages/repositories.config
 
+bin
+obj
+config
+
 # User-specific files
 *.suo
 *.user
