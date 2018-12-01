@@ -15,4 +15,10 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNode_js Condition=" '$(PkgNode_js)' == '' ">C:\Users\Oksana\.nuget\packages\node.js\0.10.28</PkgNode_js>
+    <PkgNoGit Condition=" '$(PkgNoGit)' == '' ">C:\Users\Oksana\.nuget\packages\nogit\0.0.8</PkgNoGit>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Oksana\.nuget\packages\jquery\3.3.1</PkgjQuery>
+    <PkgBower Condition=" '$(PkgBower)' == '' ">C:\Users\Oksana\.nuget\packages\bower\1.3.11</PkgBower>
+  </PropertyGroup>
 </Project>
