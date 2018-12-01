@@ -5,7 +5,9 @@
 
 /packages/
 !packages/repositories.config
-
+TimelineHistory/TimelineDLL/bin/
+TimelineHistory/TimelineDLL/obj/
+TimelineHistory/.vs/
 *.suo
 *.user
 _ReSharper.*
