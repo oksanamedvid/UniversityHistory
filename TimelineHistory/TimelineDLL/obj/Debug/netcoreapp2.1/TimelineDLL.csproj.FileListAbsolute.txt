@@ -1,7 +1,6 @@
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\bin\Debug\netcoreapp2.1\TimelineDLL.deps.json
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\bin\Debug\netcoreapp2.1\TimelineDLL.dll
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\bin\Debug\netcoreapp2.1\TimelineDLL.pdb
-C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\obj\Debug\netcoreapp2.1\TimelineDLL.csprojAssemblyReference.cache
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\obj\Debug\netcoreapp2.1\TimelineDLL.csproj.CoreCompileInputs.cache
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\obj\Debug\netcoreapp2.1\TimelineDLL.AssemblyInfoInputs.cache
 C:\Users\Oksana\source\repos\UniversityHistory\TimelineHistory\TimelineDLL\obj\Debug\netcoreapp2.1\TimelineDLL.AssemblyInfo.cs
